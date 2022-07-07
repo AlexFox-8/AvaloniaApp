@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AvaloniaUI", "AvaloniaUI", "{87319D40-79EC-4ADA-B8E0-FA6112009B0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaApp", "AvaloniaApp\AvaloniaApp.csproj", "{E23A3F1B-762E-4B3D-BF53-6833CE08ABB5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPFApp", "WPFApp", "{8E736ED7-9E8E-4CA6-AACF-9AB295E9F34A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfNet", "WpfNet\WpfNet.csproj", "{BCEE6E66-84EF-4755-85BC-4F38AD0B6EA7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E23A3F1B-762E-4B3D-BF53-6833CE08ABB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E23A3F1B-762E-4B3D-BF53-6833CE08ABB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E23A3F1B-762E-4B3D-BF53-6833CE08ABB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E23A3F1B-762E-4B3D-BF53-6833CE08ABB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCEE6E66-84EF-4755-85BC-4F38AD0B6EA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCEE6E66-84EF-4755-85BC-4F38AD0B6EA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCEE6E66-84EF-4755-85BC-4F38AD0B6EA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCEE6E66-84EF-4755-85BC-4F38AD0B6EA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E23A3F1B-762E-4B3D-BF53-6833CE08ABB5} = {87319D40-79EC-4ADA-B8E0-FA6112009B0B}
+		{BCEE6E66-84EF-4755-85BC-4F38AD0B6EA7} = {8E736ED7-9E8E-4CA6-AACF-9AB295E9F34A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21E8532D-F6CB-4AA8-928F-F166237B38D0}
+	EndGlobalSection
+EndGlobal
