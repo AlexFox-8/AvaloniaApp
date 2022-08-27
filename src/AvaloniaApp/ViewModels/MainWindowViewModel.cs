@@ -1,11 +1,24 @@
-using System;
-using System.Collections.Generic;
-using System.Text;
+using System.Windows.Input;
+using ReactiveUI;
 
 namespace AvaloniaApp.ViewModels
 {
     public class MainWindowViewModel : ViewModelBase
     {
-        public string Greeting => "Welcome to Avalonia!";
+        private int count;
+
+        public int Count
+        {
+            get => count;
+            set => this.RaiseAndSetIfChanged(ref count, value);
+        }
+
+        public ICommand CountCommand { get; private set; }
+
+
+        public MainWindowViewModel()
+        {
+            CountCommand = ReactiveCommand.Create((() => { Count++; }));
+        }
     }
 }
